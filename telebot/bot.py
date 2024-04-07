@@ -3,10 +3,10 @@ from telebot import apihelper
 from parsing import parsing
 from os.path import exists
 
-TOKEN = '6449234059:AAGsswG4haJeV1lPewBwHNk9J2b7K671I4E'
+TOKEN = ""
 proxies = {
-    'http': '35.185.196.38:3128',
-    'https': '35.185.196.38:3128',
+    'http': '' ,
+    'https': '',
 }
 
 apihelper.proxy = proxies
